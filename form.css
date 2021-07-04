@@ -1,0 +1,110 @@
+.image{
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+body{
+    background-image: url(https://www.pixel4k.com/wp-content/uploads/2018/12/abstract-cyberspace-geometry-4k_1546278231.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*{
+    margin: 0px;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 21px;
+}
+nav, footer{
+    backdrop-filter: blur(20px);
+    border: 4px solid rgb(204, 21, 82);
+    height: fit-content;
+    margin: 1px;
+    text-align: center;
+}
+ul{
+    list-style: none;
+    padding: 10px;
+}
+li{
+    width: fit-content;
+    display: inline;
+}
+a{
+    text-decoration: none;
+    margin: 20px 20px 20px 20px ;
+}
+.active{
+    height: inherit;
+    width: fit-content;
+    border: 2px red solid;
+    border-radius: 50px;
+}
+.mainbox{
+    margin-top: 13px;
+    backdrop-filter: blur(20px);
+    padding: 20px;
+    text-align: center;
+}
+form{
+    border: 4px rgb(204, 21, 82) solid ;
+    margin-top: 10px;
+    width: max-content;
+    text-align: center;
+    margin: 70px auto;
+}
+span.lab{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-weight: 200px;   
+    display: inline-block;
+    width: 200px;
+    height: 21px;
+    padding: 9px;
+    text-align: center;
+    border: 3px solid rgb(204, 21, 82);
+ }
+
+ span.lab1{
+     margin-right: 15px;
+     margin-bottom: 10px;
+ }
+ span.inp input{
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    padding: 9px;
+    height: 21px;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+    border: 3px solid rgb(204, 21, 82);
+    background: transparent;
+ }
+ 
+ input[type="checkbox"].how:hover, input[type="radio"].how:hover{
+    transform: scale(1.4);
+}
+input[type="text"], input[type="email"], input[type="number"], input[type="date"]{
+    background-color: #232021;
+    height: 21px;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+button{
+    background-color: rgb(204, 21, 82);
+    border: none;
+    width: 20%;
+    font-size: 21px;
+    margin: 15px;
+    padding: 4px;
+}
+.insta{
+    object-fit: cover;
+    width: 40px;
+    height:40px;
+}
+.twitter{
+    object-fit: cover;
+    width: 40px;
+}

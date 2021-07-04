@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM USING CSS</title>
+    <link rel="stylesheet" href="form.css">
+
+</head>
+
+<body>
+    <nav class="nav">
+        <img src="https://lh3.googleusercontent.com/ogw/ADea4I40ZFF5gDXOhxxC2UJr-_mbSwxodz13C2-0ewnTow=s192-c-mo" alt="Sankar" class="image">
+        <h1>Sanskar Dwivedi</h1>
+        <div class="navbar">
+            <ul>
+                <li> <a href="#">HOME</a>  </li>
+                <li> <a href="#">ABOUT US</a>  </li>
+                <li> <a href="#">LOGIN</a>  </li>
+                <li class="active"> <a href="#">CONTACT US</a>  </li>
+            </ul>
+        </div>
+    </nav>
+<form action="#">
+    <main>
+        <div class="mainbox">
+            <h2>CONTACT DETAILS</h2>
+            <div><h5>Please fill the form below so that we can contact you!</h5></div>
+        </div>
+    </main>
+    <span class="lab">FULL NAME *</span>
+    <span class="inp"><input type="text"></span>
+                    <!-- Number -->
+                    <div>
+                        <span class="lab">Phone Number*:</span>
+                        <span class="inp"><input class="how" type="text" name="num" id="num" required></span>
+                    </div>
+                    <!-- E-mail -->
+                    <div>
+                        <span class="lab">E-mail*:</span>
+                        <span class="inp"><input class="how" type="email" name="email" id="email" required></span>
+                    </div>
+                    <!-- DOB -->
+                    <div>
+                        <span class="lab">Date of Birth*:</span>
+                        <span class="inp"><input class="how" type="date" name="dob"  id="dob" required></span>
+                    </div>
+                    <!-- Subject of Inquiry -->
+                    <div>
+                        <fieldset>
+                            <legend>How would you like us to contact you*?</legend>
+                            <span class="inp1"><input class="how" type="radio" name="cus" id="Call" required></span>
+                            <span class="lab1">Call</span>
+                            <span class="inp1"><input class="how" type="radio" name="cus" id="text" required></span>
+                            <span class="lab1">Text</span>
+                            <span class="inp1"><input class="how" type="radio" name="cus" id="E-mail" required></span>
+                            <span class="lab1">E-mail</span>
+                        </fieldset>
+                    </div>
+                    <div><h5 class="right">* fields are compulsaory.</h5></div>
+                    <div class="privacy"><input type="checkbox" class="how" name="privacy_polacy" id="Privacy_polacy"> By checking this checkbox,  you accept all the <br><p  class="how"><a href="#" target="_blank">Privacy Policies</a></p>and <p class="how"><a href="#"  target="_blank">Terms and Conditions</a></p><br>hence you will not blame our company later for anything.</div> <!--Privacy checkbox-->
+                     <!--Submit Button-->
+                </div>
+                <div>
+                    <fieldset>
+                        <legend>Subject of Inquiry*?</legend>
+                        <span class="inp1"><input class="how" type="checkbox" name="topic" id="Technical" ></span>
+                        <span class="lab1">Technical</span>
+                        <span class="inp1"><input class="how" type="checkbox" name="topic" id="Non-Technical" ></span>
+                        <span class="lab1">Non-Technical</span>
+                        <span class="inp1"><input class="how" type="checkbox" name="topic" id="Finencial " ></span>
+                        <span class="lab1">Finencial</span>
+                        <div><button class="how" type="submit">Submit</button></div>
+                    </fieldset>
+                </div>
+</form> 
+<footer>
+    <ul>
+        <li class="how"><a href="#" >FAQ</a></li>
+        <li class="how"><a href="#" >Terms of Use</a></li>
+        <li class="how"><a href="#" >Privacy Policy</a></li>
+        <li class="how"><a href="#" >Refund Policy</a></li>
+        <li class="how"><a href="#" >Support</a></li>
+        
+    </ul>
+    <div class="rbox">
+        <a href="https://www.instagram.com/sanskardwived" target="_blank"><img class="insta how" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPqi2wwcZiQqrSVe7Th-mpiy1I_SiaXAQDkA&usqp=CAU" alt="insta"></a>
+
+        <a href="https://twitter.com/Sanskar91417779?lang=eu" target="_blank"><img class="twitter how" src="https://i.pinimg.com/originals/28/90/ba/2890bac9ba41e52707f36268231dfe9e.png" alt="Twitter"></a>
+    </div>
+</footer>
+
+    
+</body>
+</html>
