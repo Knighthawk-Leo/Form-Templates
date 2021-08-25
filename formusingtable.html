@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Using Tables</title>
+    <style>
+    body{
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm222batch3-kul-21_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=ec7b8c3c86b2af33e936d1db7832326a);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+input{
+    
+    background: transparent;
+    text-emphasis-color: white;
+    height: 31px;
+    display: inline;
+    color: white;
+    
+}
+select{
+    
+    background: transparent;
+    text-emphasis-color: white;
+    height: 31px;
+    display: inline;
+    color: white;
+    
+}
+option{
+    
+    background: transparent;
+    text-emphasis-color: white;
+    height: 31px;
+    display: inline;
+    color: white;
+    
+}
+
+table{
+
+    border: 5px solid rgb(68, 8, 83);
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+form{
+    text-align: center;
+    color: white;
+}
+button{
+    background-color: rgb(68, 8, 83);
+    color: white;
+    height: 41px;
+    width: 60px;
+}
+thead,th{
+    backdrop-filter: blur(20px);
+ 
+}
+
+</style>
+</head>
+<body>
+    <h1>
+
+        
+        <Table border= 2px solid green>
+            <thead><b>FILL THE DETAILS HERE</b></thead>
+            <form>
+                
+                <tr>
+                
+                    <th colspan="2">PLEASE PROVIDE CORRECT DATA * is Neccesssary</th>
+                </tr>
+                <tr>
+                    <td>NAME</td>
+                    <td class="value"><input type="text" placeholder="NAME"></td>
+            </tr>
+            <tr>
+                <td>CLASS</td>
+                <td class="value"><input type="text" placeholder="CLASS"></td>
+            </tr>
+            <tr>
+                <td>AGE</td>
+                <td class="value"><input type="number" placeholder="AGE" min="18"></td>
+            </tr>
+            <tr>
+                <td>Contact No.</td>
+                <td class="value"><input type="tel" placeholder="number" min="18"></td>
+            </tr>
+            <tr>
+                <td>GENDER</td>
+            </h1>
+                <td class="radio"><input type="radio" name="gender">MALE<input type="radio" name="gender">Female
+                
+                
+                </td>
+            </tr>
+            <tr>
+                <td>DOB</td>
+                <td><input type="date" placeholder="Date Of Birth"></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" placeholder="Email"></td>
+            </tr>
+            <tr>
+               <td> <label>Nationality:</label></td>
+               <td>
+                   <div class="select">
+<select name="country" id="register_country" >  
+    <option value="IN">Indian</option>  
+    <option value="PK">pakistani</option>  
+    <option value="AF">Asian</option>  
+    <option value="CH">chinese</option>  
+    <option value="OT">other</option>  
+</select>
+</div>
+</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox" required>I AGREE TERMS AND CONDITIONS
+                    
+                </td>
+
+            </tr>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox" required >Want To Recieve Emails Notification
+
+                </td>
+
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Upload A Photo <input type="file">
+
+                </td>
+
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="submit">Submit</button> <button type="reset">Reset</button>
+
+                </td>
+
+            </tr>
+            
+        </form>
+    </Table>
+
+    </body>
+    </html>
